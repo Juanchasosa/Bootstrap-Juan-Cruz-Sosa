@@ -60,10 +60,11 @@ html{
 
 /* BARRA DE NAVEGACIÓN */
 
+.logoNav{
+    width: 80px;
+}
+
 .barraNavegacion{
-    display: flex;
-    top: 0;
-    position: sticky;
     background-color: #bafaea;
     border-top: solid #22615a 2px;
     border-bottom: #22615a solid 2px;
@@ -445,7 +446,7 @@ footer h4{
     height: 300px;
     width: auto;
     margin: 10px;
-    background-image: url(../img/tratamiento-reductor.jpg);
+    background-image: url(../img/tratamiento-reductor-min.jpg);
 
 }
 @media (max-width:600px){
@@ -458,7 +459,7 @@ footer h4{
     height: 300px;
     width: auto;
     margin: 10px;
-    background-image: url(../img/electroestimulacioin.jpg);
+    background-image: url(../img/electroestimulacioin-min.jpg);
 }
 
 @media (max-width:600px){
